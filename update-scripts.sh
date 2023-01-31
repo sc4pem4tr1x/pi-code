@@ -1,6 +1,9 @@
 #!/bin/sh
 
-git fetch --all https://github.com/sc4pem4tr1x/pi-code
+git fetch origin
+git add .
+git commit -m "commit before merge"
+
 git merge
 
 #yeye
