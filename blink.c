@@ -18,12 +18,6 @@
  * sudo make install
  */
 
-/*
- * Allow write access to /deb/mem by members of kmem group
- * echo 'SUBSYSTEM=="mem", KERNEL=="mem", GROUP="kmem", MODE="0660"' | sudo tee /etc/udev/rules.d/98-mem.rules
- * sudo reboot
- */
-
 #include <bcm2835.h>
 #include <stdio.h>
 

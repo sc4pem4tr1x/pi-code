@@ -1,1 +1,1 @@
-CMakeLists.txt not found in /home/the-dicktator/scripts/pi-code Select CMakeLists.txt
+CMakeLists.txt not found in /home/sc4pem4tr1x/scripts/pi-code Select CMakeLists.txt

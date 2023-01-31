@@ -19,12 +19,6 @@
  * sudo make install
  */
 
-/*
- * Allow write access to /deb/mem by members of kmem group
- * echo 'SUBSYSTEM=="mem", KERNEL=="mem", GROUP="kmem", MODE="0660"' | sudo tee /etc/udev/rules.d/98-mem.rules
- * sudo reboot
- */
-
 #include <bcm2835.h>
 #include <stdio.h
 
@@ -54,6 +48,7 @@ int main(int argc, char **argv)
             // Now clear the eds flag by setting it to 1
             bcm2835_gpio_set_eds(PIN);
             pritnf("Low event detect for pin 15\n");
+            printf();
         }
 
         // wait a bit
