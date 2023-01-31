@@ -1,6 +1,6 @@
 // blink.c
 // Created by the-dicktator on 1/30/23.
-// A pretty epic program
+// A pretty epic program.
 
 /*
  * Blinks a pin on and off every 0.5 secs
